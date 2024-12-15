@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SABBIR TECH</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header section-->
+    <nav>
+        <div class="logo">
+            <img src="https://t.ly/MrVF5" alt="logo" href="#Home">
+        </div>
+
+        <ul id="menuList">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+        </nav>
+
+<!--main content start-->
+<section class="hero">
+    <div class="container hero-content">
+        <div class="hero-text">
+            <h1>Hello, I'm <span class="name">SABBIR</span></h1>
+            <p class="typing-text">I'm a, <span></span></p>
+            <br>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://t.ly/ZWH6-" alt="Sabbir's Profile">
+        </div>
+    </div>
+</section>
+
+
+<!--about section-->
+<div class="about" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="https://t.ly/sYZQT" alt="sabbir">
+            </div>
+            <div class="about-col2">
+                <h1 class="tittle">About Me</h1>
+                <p class="pr1">I am a web developer with experience in building dynamic and responsive websites. <br> I have Knowledge of modern HTML/CSS/Javascript/Php etc. Creative problem-solving skills And <br> Ability to work and thrive in a fast-paced environment.</p>
+
+                <div class="tab-tittle">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend Design</span><br>Design Web/App Interfaces</li>
+                        <li><span>Full Stacks Development</span><br>Web App Development</li>
+                        <li><span>Software Development</span><br>Building Android/IOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - current</span><br>PHP and Laravel training at OSTAD Limited</li>
+                        <li><span>2022 - 2024</span><br>Python language at Code with harry</li>
+                        <li><span>2020 - 2022</span><br>HTML/CSS/TAILWIND at Hablu Programmer and Sumit Saha</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024 - Current</span><br>OSTAD Limited</li>
+                        <li><span>2022 - 2024</span><br>Cox's Bazar Polytechnic Institute</li>
+                        <li><span>2016 - 2021</span><br>Tepamadhupur High School</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <a class="button" href="https://t.ly/hvr_6" target="_blank">
+        <span class="button-text">Download CV</span>
+        <div class="icon"><i class="button-icon fa fa-download"></i></div>
+    </a>
+
+</div>
+
+<!----Services Section-->
+<div class="services">
+    <div class="container">
+        <h1 class="tittle1">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Prefessional website interface and landing page design</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-css3"></i>
+                <h2>Web Development</h2>
+                <p>Prefessional website backend development and dynemic website making</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Development</h2>
+                <p>Professional web application and android app development</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Project section-->
+<div class="projects" id="projects">
+    <div class="container">
+        <h1 class="tittle3">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://t.ly/oX1Nd" alt="project 1">
+                <div class="layer">
+                    <h3>Zomato Website Design</h3>
+                    <p>The Famouse indian food delevery website Design here.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://t.ly/dpDqh" alt="project 2">
+                <div class="layer">
+                    <h3>Personal Website Design</h3>
+                    <p>My personal demo website design here.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://t.ly/chYt0" alt="project 3">
+                <div class="layer">
+                    <h3>Professional protfolio Design</h3>
+                    <p>This is my professional protfolio website design.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn1"><a href="#">See more</a></div>
+
+    </div>
+</div>
+
+
+<!--skill section-->
+<section class="skills-section" id="skill">
+    <h2 class="section-title">My Skills</h2>
+    
+    <div class="skills-container">
+        <!-- Skill Card 1: HTML -->
+        <div class="skill-card">
+            <h3 class="skill-name"><i class="fab fa-html5"></i> HTML</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%"></div>
+            </div>
+            <p>Proficient in creating structured and semantic web pages using HTML.</p>
+        </div>
+
+        <!-- Skill Card 2: CSS -->
+        <div class="skill-card">
+            <h3 class="skill-name"><i class="fab fa-css3-alt"></i> CSS</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 85%"></div>
+            </div>
+            <p>Experienced in styling web pages, working with layouts, and creating responsive designs with CSS.</p>
+        </div>
+
+        <!-- Skill Card 3: JavaScript -->
+        <div class="skill-card">
+            <h3 class="skill-name"><i class="fab fa-js"></i> JavaScript</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%"></div>
+            </div>
+            <p>Skilled in JavaScript for dynamic web functionality and interactivity.</p>
+        </div>
+
+        <!-- Skill Card 4: PHP -->
+        <div class="skill-card">
+            <h3 class="skill-name"><i class="fab fa-php"></i> PHP</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 75%"></div>
+            </div>
+            <p>Experienced in server-side scripting with PHP for dynamic web applications.</p>
+        </div>
+
+        <!-- Skill Card 5: Laravel -->
+        <div class="skill-card">
+            <h3 class="skill-name"><i class="fab fa-laravel"></i> Laravel</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%"></div>
+            </div>
+            <p>Experienced in building web applications with the Laravel framework for clean, maintainable code.</p>
+        </div>
+
+        <!-- Skill Card 6: Database -->
+        <div class="skill-card">
+            <h3 class="skill-name"><i class="fas fa-database"></i> Database</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 60%"></div>
+            </div>
+            <p>Skilled in working with relational databases (MySQL, PostgreSQL) and query optimization.</p>
+        </div>
+    </div>
+</section>
+
+<!--Contact section-->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out!</p>
+        <br>
+        <a href="mailto:sabbirboss5503@gmail.com" class="btn">Send Email</a>
+    </div>
+    <br>
+</section>
+
+<section id="contact" class="contact-section">
+    <h4>Your Feedback-</h4>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" style="text-align: center;" required>
+      <input type="email" id="email" placeholder="Your Email" style="text-align: center;" required>
+      <textarea id="message" placeholder="Your Message" rows="4" style="text-align: center;" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+<!--footer section-->
+ <footer>
+    <div class="name">
+        <h2>SABBIR Programmer</h2>
+    </div>
+
+    <div class="text">
+        <p>Hello, I am sabbir. I'm a professional web designer and full stack web developer. If you need any help and any Services You can freely contact Me. On social media and Email.</p>
+    </div>
+
+    <div class="icon">
+        <a href="https://facebook.com/itx.me.sabbir" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.youtube.com/@SabbirTech03" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://twitter.com/itx_me_sabbir" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/Itx_me_sabbir" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <div class="copy">
+        <p>Copyright &copy; <i>SABBIR Tech-</i> 2024 | All rights reserved.</p>
+    </div>
+</footer>
+
+        <script>
+            let menuList = document.getElementById("menuList")
+            menuList.style.maxHeight = "0px";
+
+            function toggleMenu(){
+                if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+            }
+
+        </script>
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+
+<script src="script.js"></script>
+
+
+        <script src="https://kit.fontawesome.com/9cb589dc6e.js" crossorigin="anonymous"></script>
+</body>
+</html>
